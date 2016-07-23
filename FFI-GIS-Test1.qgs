@@ -3,22 +3,25 @@
   <title>FFI GIS Test</title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="potentiell_100xWLAN20160723104314349" name="potentiell-100xWLAN">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ms_strassen_interesse_citeq_Jul1620160723100608085" name="ms-strassen-interesse-citeq-Jul16">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="FreifunkLP">
-      <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="lora_gw_ms20160723101330801" name="lora-gw-ms">
-        <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Skulpturprojekte">
       <customproperties/>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20160723100613254" name="OpenStreetMap">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="FreifunkLP">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="lora_gw_ms20160723144128839" name="lora-gw-ms">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="work-kgbvax">
+      <customproperties/>
+    </layer-tree-group>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="liste_100xWLAN20160723144138777" name="liste-100xWLAN">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ms_strassen_interesse_citeq_Jul1620160723144104598" name="ms-strassen-interesse-citeq-Jul16">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Stamen_Toner_Lite_OSM20160723110744061" name="Stamen Toner Lite/OSM">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -26,10 +29,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>840478.09811532089952379</xmin>
-      <ymin>6783494.89279136713594198</ymin>
-      <xmax>862821.55285250314045697</xmax>
-      <ymax>6797644.9626512685790658</ymax>
+      <xmin>842303.4099884609458968</xmin>
+      <ymin>6788844.56658480037003756</ymin>
+      <xmax>854480.30562944512348622</xmax>
+      <ymax>6798251.14020977634936571</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -46,59 +49,95 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723101556277"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ms_strassen_interesse_citeq_Jul1620160723100608085"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="potentiell_100xWLAN20160723103042098"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105336514"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="GeoCoding_Plugin_Results20160723103527000"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stamen_Toner_Lite_OSM20160723110744061"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="potentiell_100xWLAN20160723103042098"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="liste_100xWLAN20160723144138777"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105313976"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105159570"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723104712080"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723144128839"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105220271"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ms_strassen_interesse_citeq_Jul1620160723144104598"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="potentiell_100xWLAN20160723104314349"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723101330801"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105243681"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723111408017"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723104954465"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105227602"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723100613254"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723101556277"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="MapQuest_OSM20160723104933364"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723101330801"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Landscape20160723104809283"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>ms_strassen_interesse_citeq_Jul1620160723100608085</item>
-      <item>OpenLayers_plugin_layer20160723100613254</item>
-      <item>lora_gw_ms20160723101330801</item>
-      <item>potentiell_100xWLAN20160723104314349</item>
+      <item>Stamen_Toner_Lite_OSM20160723110744061</item>
+      <item>ms_strassen_interesse_citeq_Jul1620160723144104598</item>
+      <item>lora_gw_ms20160723144128839</item>
+      <item>liste_100xWLAN20160723144138777</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="potentiell-100xWLAN" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Checked" name="Skulpturprojekte"/>
+    <legendgroup open="true" checked="Qt::Checked" name="FreifunkLP">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lora-gw-ms" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="lora_gw_ms20160723144128839" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" checked="Qt::Checked" name="work-kgbvax"/>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="liste-100xWLAN" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="potentiell_100xWLAN20160723104314349" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="liste_100xWLAN20160723144138777" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ms-strassen-interesse-citeq-Jul16" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ms_strassen_interesse_citeq_Jul1620160723100608085" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="ms_strassen_interesse_citeq_Jul1620160723144104598" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Checked" name="FreifunkLP">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lora-gw-ms" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="lora_gw_ms20160723101330801" visible="1"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Skulpturprojekte"/>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Stamen Toner Lite/OSM" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20160723100613254" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Stamen_Toner_Lite_OSM20160723110744061" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers layercount="4">
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20160723100613254</id>
-      <datasource>.</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Stamen_Toner_Lite_OSM20160723110744061</id>
+      <datasource>&lt;GDAL_WMS>
+  &lt;Service name="TMS">
+    &lt;ServerUrl>http://tile.stamen.com/toner-lite/${z}/${x}/${y}.png&lt;/ServerUrl>
+  &lt;/Service>
+  &lt;DataWindow>
+    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
+    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
+    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
+    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
+    &lt;TileLevel>18&lt;/TileLevel>
+    &lt;TileCountX>1&lt;/TileCountX>
+    &lt;TileCountY>1&lt;/TileCountY>
+    &lt;YOrigin>top&lt;/YOrigin>
+  &lt;/DataWindow>
+  &lt;Projection>EPSG:3857&lt;/Projection>
+  &lt;BlockSizeX>256&lt;/BlockSizeX>
+  &lt;BlockSizeY>256&lt;/BlockSizeY>
+  &lt;BandsCount>3&lt;/BandsCount>
+  &lt;Cache />
+&lt;/GDAL_WMS>
+</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>OpenStreetMap</layername>
+      <layername>Stamen Toner Lite/OSM</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
@@ -112,12 +151,261 @@
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="ol_layer_type" value="OpenStreetMap"/>
+        <property key="identify/format" value="Value"/>
+        <property key="ol_layer_type" value="Stamen Toner Lite/OSM"/>
       </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>lora_gw_ms20160723101330801</id>
-      <datasource>./lora-gw-ms.shp</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>liste_100xWLAN20160723144138777</id>
+      <datasource>dbname='ffgis' host=smartcity.ms port=5432 user='ffgis' key='id' srid=3857 type=MultiPoint table="public"."liste-100xWLAN" (geom) sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>liste-100xWLAN</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">postgres</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="address">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="112,109,199,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <effect enabled="0" type="effectStack">
+                <effect type="dropShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="10"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="outerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0.5"/>
+                </effect>
+                <effect type="drawSource">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="innerShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="10"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="innerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0.5"/>
+                </effect>
+              </effect>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <effect enabled="0" type="effectStack">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="10"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0.5"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="10"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0.5"/>
+          </effect>
+        </effect>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Beschriftung"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform>.</editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform>.</annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="address">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>lora_gw_ms20160723144128839</id>
+      <datasource>dbname='ffgis' host=smartcity.ms port=5432 user='ffgis' key='id_0' srid=4326 type=MultiPoint table="public"."lora-gw-ms" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -136,21 +424,24 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">ogr</provider>
-      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
+      <provider encoding="UTF-8">postgres</provider>
+      <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
+        <edittype widgetv2type="TextEdit" name="id_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="MAC">
+        <edittype widgetv2type="TextEdit" name="mac">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -159,7 +450,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,127,0,255"/>
+              <prop k="color" v="51,160,44,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="pentagon"/>
               <prop k="offset" v="0,0"/>
@@ -171,7 +462,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="4"/>
+              <prop k="size" v="3"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -252,7 +543,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -282,7 +576,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -462,34 +759,37 @@
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
       <edittypes>
+        <edittype widgetv2type="TextEdit" name="id_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="MAC">
+        <edittype widgetv2type="TextEdit" name="mac">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>ms_strassen_interesse_citeq_Jul1620160723100608085</id>
-      <datasource>./ms-strassen-interesse-citeq-Jul16.shp</datasource>
+      <id>ms_strassen_interesse_citeq_Jul1620160723144104598</id>
+      <datasource>dbname='ffgis' host=smartcity.ms port=5432 user='ffgis' key='id' srid=4326 type=MultiLineString table="public"."ms-strassen-interesse-citeq-Jul16" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -508,7 +808,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">ogr</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -516,6 +816,9 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pkuid">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -526,16 +829,16 @@
       <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="1">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="90,80,100,255"/>
+              <prop k="line_color" v="122,245,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.36"/>
+              <prop k="line_width" v="1.56"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -558,7 +861,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -588,7 +894,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -599,16 +908,16 @@
                 </effect>
               </effect>
             </layer>
-            <layer pass="11" class="SimpleLine" locked="0">
+            <layer pass="0" class="SimpleLine" locked="1">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="157,255,188,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.17562"/>
+              <prop k="line_color" v="85,170,0,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="1.36"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -631,7 +940,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -661,7 +973,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -923,370 +1238,13 @@
       <excludeAttributesWFS/>
       <attributeactions/>
       <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pkuid">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="name">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-    </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>potentiell_100xWLAN20160723104314349</id>
-      <datasource>./potentiell-100xWLAN.shp</datasource>
-      <title>Liste NRW 100xWLAN Münster</title>
-      <abstract>Alle Objekte aus der 100xWLAN Liste in Münster; OHNE WWU</abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>potentiell-100xWLAN</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="UTF-8">ogr</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="address">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 symbollevels="0" type="singleSymbol">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="167,224,233,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-              <effect enabled="0" type="effectStack">
-                <effect type="dropShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="outerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-                <effect type="drawSource">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-              </effect>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-        <effect enabled="0" type="effectStack">
-          <effect type="dropShadow">
-            <prop k="blend_mode" v="13"/>
-            <prop k="blur_level" v="10"/>
-            <prop k="color" v="0,0,0,255"/>
-            <prop k="draw_mode" v="2"/>
-            <prop k="enabled" v="0"/>
-            <prop k="offset_angle" v="135"/>
-            <prop k="offset_distance" v="2"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="offset_unit_scale" v="0,0"/>
-            <prop k="transparency" v="0"/>
-          </effect>
-          <effect type="outerGlow">
-            <prop k="blend_mode" v="0"/>
-            <prop k="blur_level" v="3"/>
-            <prop k="color_type" v="0"/>
-            <prop k="draw_mode" v="2"/>
-            <prop k="enabled" v="0"/>
-            <prop k="single_color" v="255,255,255,255"/>
-            <prop k="spread" v="2"/>
-            <prop k="spread_unit" v="MM"/>
-            <prop k="spread_unit_scale" v="0,0"/>
-            <prop k="transparency" v="0.5"/>
-          </effect>
-          <effect type="drawSource">
-            <prop k="blend_mode" v="0"/>
-            <prop k="draw_mode" v="2"/>
-            <prop k="enabled" v="1"/>
-            <prop k="transparency" v="0"/>
-          </effect>
-          <effect type="innerShadow">
-            <prop k="blend_mode" v="13"/>
-            <prop k="blur_level" v="10"/>
-            <prop k="color" v="0,0,0,255"/>
-            <prop k="draw_mode" v="2"/>
-            <prop k="enabled" v="0"/>
-            <prop k="offset_angle" v="135"/>
-            <prop k="offset_distance" v="2"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="offset_unit_scale" v="0,0"/>
-            <prop k="transparency" v="0"/>
-          </effect>
-          <effect type="innerGlow">
-            <prop k="blend_mode" v="0"/>
-            <prop k="blur_level" v="3"/>
-            <prop k="color_type" v="0"/>
-            <prop k="draw_mode" v="2"/>
-            <prop k="enabled" v="0"/>
-            <prop k="single_color" v="255,255,255,255"/>
-            <prop k="spread" v="2"/>
-            <prop k="spread_unit" v="MM"/>
-            <prop k="spread_unit_scale" v="0,0"/>
-            <prop k="transparency" v="0.5"/>
-          </effect>
-        </effect>
-      </renderer-v2>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitMaxScale" value="0"/>
-        <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value="address"/>
-        <property key="labeling/fontBold" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value=".SF NS Text"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="13"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="false"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value=""/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="0"/>
-        <property key="labeling/placementFlags" value="0"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>address</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name=".SF NS Text"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
-          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        </DiagramCategory>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="address">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1326,14 +1284,14 @@
     <WCSUrl type="QString"></WCSUrl>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <NorthArrow>
       <Rotation type="int">0</Rotation>
       <Enabled type="bool">true</Enabled>
       <Placement type="int">0</Placement>
       <Automatic type="bool">true</Automatic>
     </NorthArrow>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
       <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
@@ -1355,9 +1313,9 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>ms_strassen_interesse_citeq_Jul1620160723100608085</value>
-        <value>lora_gw_ms20160723101330801</value>
-        <value>potentiell_100xWLAN20160723104314349</value>
+        <value>ms_strassen_interesse_citeq_Jul1620160723144104598</value>
+        <value>lora_gw_ms20160723144128839</value>
+        <value>liste_100xWLAN20160723144138777</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
