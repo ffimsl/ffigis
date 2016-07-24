@@ -30,9 +30,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Backbone">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Backbone">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="backbone_links20160724234310051" name="backbone-links">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="backbone_links20160724234310051" name="backbone-links">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -71,10 +71,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>845157.50835459330119193</xmin>
-      <ymin>6790713.42091473937034607</ymin>
-      <xmax>852654.03614004724659026</xmax>
-      <ymax>6796322.5875871479511261</ymax>
+      <xmin>841003.55001703626476228</xmin>
+      <ymin>6787159.18480001110583544</ymin>
+      <xmax>855996.60558788478374481</xmax>
+      <ymax>6798377.51814478356391191</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -200,10 +200,10 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Backbone">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="backbone-links" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Backbone">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="backbone-links" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="backbone_links20160724234310051" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="backbone_links20160724234310051" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
