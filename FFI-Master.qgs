@@ -3,7 +3,7 @@
   <title>FFI GIS Master</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="SK17">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="SK17">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="sk17_objekte20160723161334333" name="sk17-objekte">
         <customproperties/>
@@ -12,7 +12,16 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="FreifunkLP">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Elevation">
+      <customproperties/>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="srtm_surface_clip20160729204204190" name="srtm-surface-clip">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="srtm_terrain_clip20160729204132823" name="srtm-terrain-clip">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="FreifunkLP">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="lora_gw_ms20160723144128839" name="lora-gw-ms">
         <customproperties/>
@@ -32,26 +41,23 @@
     </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Backbone">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="backbone_links20160724234310051" name="backbone-links">
-        <customproperties/>
-      </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="innenstadt-projektskizze">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="innenstadt-projektskizze">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="innenstadt_packages20160724232724326" name="innenstadt-packages">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="innenstadt_packages20160724232724326" name="innenstadt-packages">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="ms_strassen_interesse_citeq_Jul1620160723144104598" name="ms-strassen-citeq-Jul16">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ms_strassen_interesse_citeq_Jul1620160723144104598" name="ms-strassen-citeq-Jul16">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="innenstadt_package_ranges20160724232723724" name="innenstadt-package-ranges">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="innenstadt_package_ranges20160724232723724" name="innenstadt-package-ranges">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="work-kgbvax">
       <customproperties/>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="liste_100xWLAN20160723144138777" name="liste-100xWLAN">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="liste_100xWLAN20160723144138777" name="liste-100xWLAN">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="ziv_ausbau_planung20160723165831465" name="ziv-ausbau-planung">
@@ -71,10 +77,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>841003.55001703626476228</xmin>
-      <ymin>6787159.18480001110583544</ymin>
-      <xmax>855996.60558788478374481</xmax>
-      <ymax>6798377.51814478356391191</ymax>
+      <xmin>844896.07659628218971193</xmin>
+      <ymin>6789706.29352240450680256</ymin>
+      <xmax>852916.24695009179413319</xmax>
+      <ymax>6796617.04549874179065228</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -96,6 +102,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="innenstadt_package_ranges20160724232723724"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723104712080"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723101330801"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_germany_dtm20160729191142291"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="innenstadt_packages20160724212443063"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ziv_ausbau_planung20160723162000139"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105159570"/>
@@ -109,6 +116,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ziv_ausbau_planung20160723165831465"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="concave_huls20160724113154202"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="innenstadt_package_poly20160724230028345"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_surface_clip20160729204204190"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="GeoCoding_Plugin_Results20160723103527000"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723144128839"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723151203701"/>
@@ -118,8 +126,10 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="backbone_links20160724234216696"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ms_strassen_interesse_citeq_Jul1620160723100608085"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105220271"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_terrain_clip20160729203514698"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="potentiell_100xWLAN20160723103042098"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ms_strassen_interesse_citeq_Jul1620160723144104598"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mask220160729203143738"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="radials_rssi_0_0005sqdeg20160724113515473"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="radials_rssi_0_005sqdeg20160724113423260"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723104954465"/>
@@ -127,16 +137,20 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="2016_07_15_Karte_der_ZIV_Standorte20160723162438736"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="sk17_objekte20160723161334333"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105227602"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mask20160729202906562"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105313976"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="potentiell_100xWLAN20160723104314349"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lora_gw_ms20160723111408017"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="MapQuest_OSM20160723104933364"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="temp220160724232445484"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_germany_dsm20160729191142261"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160724205044754"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_terrain_clip20160729204132823"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="2016_07_15_Karte_der_ZIV_Standorte20160723162229328"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="liste_100xWLAN20160723144138777"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160723145744931"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723100613254"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="mask20160729203337543"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160723105336514"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
@@ -157,11 +171,12 @@
       <item>OpenStreetMap_copy20160724205111002</item>
       <item>innenstadt_package_ranges20160724232723724</item>
       <item>innenstadt_packages20160724232724326</item>
-      <item>backbone_links20160724234310051</item>
+      <item>srtm_terrain_clip20160729204132823</item>
+      <item>srtm_surface_clip20160729204204190</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="SK17">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="SK17">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="sk17-objekte" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="sk17_objekte20160723161334333" visible="1"/>
@@ -173,7 +188,19 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="FreifunkLP">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Elevation">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="srtm-surface-clip" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="srtm_surface_clip20160729204204190" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="srtm-terrain-clip" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="srtm_terrain_clip20160729204132823" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="FreifunkLP">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lora-gw-ms" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="lora_gw_ms20160723144128839" visible="1"/>
@@ -200,34 +227,28 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Backbone">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="backbone-links" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Backbone"/>
+    <legendgroup open="true" checked="Qt::Unchecked" name="innenstadt-projektskizze">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="innenstadt-packages" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="backbone_links20160724234310051" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="innenstadt_packages20160724232724326" visible="0"/>
         </filegroup>
       </legendlayer>
-    </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="innenstadt-projektskizze">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="innenstadt-packages" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ms-strassen-citeq-Jul16" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="innenstadt_packages20160724232724326" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="ms_strassen_interesse_citeq_Jul1620160723144104598" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ms-strassen-citeq-Jul16" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="innenstadt-package-ranges" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="ms_strassen_interesse_citeq_Jul1620160723144104598" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="innenstadt-package-ranges" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="innenstadt_package_ranges20160724232723724" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="innenstadt_package_ranges20160724232723724" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Unchecked" name="work-kgbvax"/>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="liste-100xWLAN" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liste-100xWLAN" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="liste_100xWLAN20160723144138777" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="liste_100xWLAN20160723144138777" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ziv-ausbau-planung" showFeatureCount="0">
@@ -459,107 +480,6 @@
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>backbone_links20160724234310051</id>
-      <datasource>dbname='ffgis' host=smartcity.ms port=5432 sslmode=disable authcfg=83d710s key='id' srid=4326 type=MultiLineString table="public"."backbone-links" (geom) sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>backbone-links</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="UTF-8">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="146,139,90,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>id</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name=".SF NS Text"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>concave_huls20160724113154202</id>
@@ -3415,6 +3335,120 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>srtm_surface_clip20160729204204190</id>
+      <datasource>./elevation/srtm-surface-clip.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>srtm-surface-clip</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="88" classificationMinMaxOrigin="User" band="1" classificationMin="50" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="DISCRETE" clip="0">
+              <item alpha="255" value="50" label="50.000000" color="#2b83ba"/>
+              <item alpha="255" value="52.7143" label="52.714286" color="#4f9cb3"/>
+              <item alpha="255" value="55.4286" label="55.428571" color="#74b6ad"/>
+              <item alpha="255" value="58.1429" label="58.142857" color="#98d0a7"/>
+              <item alpha="255" value="60.8571" label="60.857143" color="#b7e1a7"/>
+              <item alpha="255" value="63.5714" label="63.571429" color="#cfebaf"/>
+              <item alpha="255" value="66.2857" label="66.285714" color="#e7f5b7"/>
+              <item alpha="255" value="69" label="69.000000" color="#ffffbf"/>
+              <item alpha="255" value="71.7143" label="71.714286" color="#fee7a4"/>
+              <item alpha="255" value="74.4286" label="74.428571" color="#fdd089"/>
+              <item alpha="255" value="77.1429" label="77.142857" color="#fdb96e"/>
+              <item alpha="255" value="79.8571" label="79.857143" color="#f79857"/>
+              <item alpha="255" value="82.5714" label="82.571429" color="#ec6e43"/>
+              <item alpha="255" value="85.2857" label="85.285714" color="#e1432f"/>
+              <item alpha="255" value="88" label="88.000000" color="#d7191c"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="-60" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="45" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>8</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>srtm_terrain_clip20160729204132823</id>
+      <datasource>./elevation/srtm-terrain-clip.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>srtm-terrain-clip</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="88" classificationMinMaxOrigin="User" band="1" classificationMin="50" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="50" label="50.000000" color="#2b83ba"/>
+              <item alpha="255" value="53.1667" label="53.166667" color="#55a1b2"/>
+              <item alpha="255" value="56.3333" label="56.333333" color="#80bfab"/>
+              <item alpha="255" value="59.5" label="59.500000" color="#abdda4"/>
+              <item alpha="255" value="62.6667" label="62.666667" color="#c7e8ad"/>
+              <item alpha="255" value="65.8333" label="65.833333" color="#e3f3b6"/>
+              <item alpha="255" value="69" label="69.000000" color="#ffffbf"/>
+              <item alpha="255" value="72.1667" label="72.166667" color="#fee49f"/>
+              <item alpha="255" value="75.3333" label="75.333333" color="#fdc980"/>
+              <item alpha="255" value="78.5" label="78.500000" color="#fdae61"/>
+              <item alpha="255" value="81.6667" label="81.666667" color="#f07c4a"/>
+              <item alpha="255" value="84.8333" label="84.833333" color="#e34a33"/>
+              <item alpha="255" value="88" label="88.000000" color="#d7191c"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="-60" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="50" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2" zoomedInResampler="bilinear"/>
+      </pipe>
+      <blendMode>8</blendMode>
+    </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>ziv_ausbau_planung20160723165831465</id>
       <datasource>dbname='ffgis' host=smartcity.ms port=5432 user='ffgis' key='id_0' srid=4326 type=MultiPolygon table="public"."ziv-ausbau-planung" (geom) sql=</datasource>
@@ -3707,6 +3741,20 @@ def my_form_open(dialog, layer, feature):
       <pythonCode type="QString"></pythonCode>
     </Macros>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Scales>
+      <ScalesList type="QStringList">
+        <value>1:250000</value>
+        <value>1:150000</value>
+        <value>1:70000</value>
+        <value>1:35000</value>
+        <value>1:15000</value>
+        <value>1:8000</value>
+        <value>1:4000</value>
+        <value>1:2000</value>
+        <value>1:1000</value>
+      </ScalesList>
+      <useProjectScales type="bool">true</useProjectScales>
+    </Scales>
     <WCSUrl type="QString"></WCSUrl>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSPrecision type="QString">8</WMSPrecision>
@@ -3725,10 +3773,8 @@ def my_form_open(dialog, layer, feature):
         <value>radials_rssi_0_005sqdeg20160724113423260</value>
         <value>sk17_objekte20160723161334333</value>
         <value>ziv_ausbau_planung20160723165831465</value>
-        <value>backbone_links20160724234310051</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -3757,10 +3803,8 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -3777,7 +3821,6 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
@@ -3866,8 +3909,8 @@ def my_form_open(dialog, layer, feature):
       <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
     <WFSUrl type="QString"></WFSUrl>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
   </properties>
   <visibility-presets/>
 </qgis>
